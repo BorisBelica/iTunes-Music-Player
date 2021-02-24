@@ -1,0 +1,41 @@
+@import "/src/index.scss";
+
+.about {
+    padding: 1rem 0rem;
+    text-align: center;
+    margin: 0px;
+    width: 100vw;
+    padding: 0vw 5vw;
+
+    text-align: center;
+}
+
+p {
+    color: $bright-color;
+    font-size: 18px;
+}
+
+p > a {
+    color: $contrast-color;
+}
+
+.title-page {
+    margin-top: 0rem;
+    padding-top: 1rem;
+    font-size: 4rem;
+    color: $contrast-color;
+}
+
+  .sign {
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  .tip {
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+  }

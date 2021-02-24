@@ -1,0 +1,15 @@
+@import "/src/index.scss";
+
+.title-page {
+    margin-top: 0rem;
+    padding-top: 1rem;
+    font-size: 4rem;
+    color: $contrast-color;
+  }
+
+  .tip {
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+  }

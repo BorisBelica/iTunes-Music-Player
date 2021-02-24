@@ -1,0 +1,36 @@
+@import "../index.scss";
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home p {
+  padding: 20px 0px;
+  margin: 0px;
+  line-height: 2.0;
+
+  width: 60vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    } 
+  }
+
+  .title-page {
+    margin-top: 0rem;
+    padding-top: 1rem;
+    font-size: 4rem;
+    color: $contrast-color;
+}  
+
+
+@media (max-width: $breakpoint-mobile) {
+  .home p {
+    width: 80vw;
+  }
+}
